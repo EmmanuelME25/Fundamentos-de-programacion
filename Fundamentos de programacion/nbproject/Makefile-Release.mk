@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Estructuras/While.o \
 	${OBJECTDIR}/Tarea_1.o \
 	${OBJECTDIR}/Tarea_2_Mayor\ de\ 3.o \
 	${OBJECTDIR}/Tarea_2_Mayor\ de\ 4.o \
@@ -64,6 +65,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/Estructuras/While.o: Estructuras/While.c
+	${MKDIR} -p ${OBJECTDIR}/Estructuras
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Estructuras/While.o Estructuras/While.c
 
 ${OBJECTDIR}/Tarea_1.o: Tarea_1.c
 	${MKDIR} -p ${OBJECTDIR}
