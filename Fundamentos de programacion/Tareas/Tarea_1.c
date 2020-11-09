@@ -3,6 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+/* 
+ * File:   Tarea_1.c
+ * Author: Emmanuel
+ *
+ * Created on 9 de noviembre de 2020, 11:08 AM
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,7 +18,7 @@
  * 
  */
 int main(int argc, char** argv) {
-
+    
 double x=0,y=0,z=0;
 
 
@@ -26,3 +34,4 @@ printf("%f\n",z);
 
     return (EXIT_SUCCESS);
 }
+

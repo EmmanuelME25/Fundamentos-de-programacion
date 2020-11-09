@@ -3,6 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+/* 
+ * File:   Tarea_2_Mayor de 3.c
+ * Author: Emmanuel
+ *
+ * Created on 9 de noviembre de 2020, 11:10 AM
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -41,3 +49,4 @@ int main(int argc, char** argv) {
    
     return (EXIT_SUCCESS);
 }
+

@@ -3,14 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+/* 
+ * File:   Tarea_2_Mayor de 4.c
+ * Author: Emmanuel
+ *
+ * Created on 9 de noviembre de 2020, 11:12 AM
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
+
 /*
  * 
  */
-int main() {
-
-    int a=0,b=0,c=0,d=0;
+int main(int argc, char** argv) {
+int a=0,b=0,c=0,d=0;
     
     scanf("%d",&a);
     scanf("%d",&b);
@@ -45,6 +53,6 @@ int main() {
         return (EXIT_SUCCESS);
     }
     
-    
     return (EXIT_SUCCESS);
 }
+

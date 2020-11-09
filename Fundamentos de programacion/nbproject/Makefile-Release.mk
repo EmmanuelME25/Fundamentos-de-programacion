@@ -35,9 +35,9 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Tarea_01.o \
-	${OBJECTDIR}/Tarea_02_Mayor\ de\ 3.o \
-	${OBJECTDIR}/Tarea_02_Mayor\ de\ 4.o \
+	${OBJECTDIR}/Tarea_1.o \
+	${OBJECTDIR}/Tarea_2_Mayor\ de\ 3.o \
+	${OBJECTDIR}/Tarea_2_Mayor\ de\ 4.o \
 	${OBJECTDIR}/main.o
 
 
@@ -65,22 +65,22 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion.exe: ${OB
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/Tarea_01.o: Tarea_01.c
+${OBJECTDIR}/Tarea_1.o: Tarea_1.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea_01.o Tarea_01.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea_1.o Tarea_1.c
 
-.NO_PARALLEL:${OBJECTDIR}/Tarea_02_Mayor\ de\ 3.o
-${OBJECTDIR}/Tarea_02_Mayor\ de\ 3.o: Tarea_02_Mayor\ de\ 3.c
+.NO_PARALLEL:${OBJECTDIR}/Tarea_2_Mayor\ de\ 3.o
+${OBJECTDIR}/Tarea_2_Mayor\ de\ 3.o: Tarea_2_Mayor\ de\ 3.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea_02_Mayor\ de\ 3.o Tarea_02_Mayor\ de\ 3.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea_2_Mayor\ de\ 3.o Tarea_2_Mayor\ de\ 3.c
 
-.NO_PARALLEL:${OBJECTDIR}/Tarea_02_Mayor\ de\ 4.o
-${OBJECTDIR}/Tarea_02_Mayor\ de\ 4.o: Tarea_02_Mayor\ de\ 4.c
+.NO_PARALLEL:${OBJECTDIR}/Tarea_2_Mayor\ de\ 4.o
+${OBJECTDIR}/Tarea_2_Mayor\ de\ 4.o: Tarea_2_Mayor\ de\ 4.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea_02_Mayor\ de\ 4.o Tarea_02_Mayor\ de\ 4.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea_2_Mayor\ de\ 4.o Tarea_2_Mayor\ de\ 4.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
