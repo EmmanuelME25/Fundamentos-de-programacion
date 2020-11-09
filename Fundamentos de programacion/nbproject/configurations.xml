@@ -12,6 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Estructuras/If.c</itemPath>
       <itemPath>Tarea_1.c</itemPath>
       <itemPath>Tarea_2_Mayor de 3.c</itemPath>
       <itemPath>Tarea_2_Mayor de 4.c</itemPath>
@@ -61,6 +62,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Estructuras/If.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Estructuras/While.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tarea_1.c" ex="false" tool="0" flavor2="0">
