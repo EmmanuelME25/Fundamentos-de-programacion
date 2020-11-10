@@ -13,9 +13,9 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Estructuras/If.c</itemPath>
-      <itemPath>Tarea_1.c</itemPath>
-      <itemPath>Tarea_2_Mayor de 3.c</itemPath>
-      <itemPath>Tarea_2_Mayor de 4.c</itemPath>
+      <itemPath>Tareas/Tarea_01.c</itemPath>
+      <itemPath>Tareas/Tarea_02_Mayor de 3.c</itemPath>
+      <itemPath>Tareas/Tarea_02_Mayor de 4.c</itemPath>
       <itemPath>Estructuras/While.c</itemPath>
       <itemPath>main.c</itemPath>
     </logicalFolder>
@@ -66,11 +66,11 @@
       </item>
       <item path="Estructuras/While.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="Tarea_1.c" ex="false" tool="0" flavor2="0">
+      <item path="Tareas/Tarea_01.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="Tarea_2_Mayor de 3.c" ex="false" tool="0" flavor2="0">
+      <item path="Tareas/Tarea_02_Mayor de 3.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="Tarea_2_Mayor de 4.c" ex="false" tool="0" flavor2="0">
+      <item path="Tareas/Tarea_02_Mayor de 4.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>

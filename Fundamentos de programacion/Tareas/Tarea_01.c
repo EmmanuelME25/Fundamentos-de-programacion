@@ -5,10 +5,10 @@
  */
 
 /* 
- * File:   Tarea_1.c
+ * File:   Tarea_01.c
  * Author: Emmanuel
  *
- * Created on 9 de noviembre de 2020, 11:08 AM
+ * Created on 9 de noviembre de 2020, 11:27 AM
  */
 
 #include <stdio.h>
@@ -18,7 +18,7 @@
  * 
  */
 int main(int argc, char** argv) {
-    
+
 double x=0,y=0,z=0;
 
 

@@ -37,9 +37,9 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Estructuras/If.o \
 	${OBJECTDIR}/Estructuras/While.o \
-	${OBJECTDIR}/Tarea_1.o \
-	${OBJECTDIR}/Tarea_2_Mayor\ de\ 3.o \
-	${OBJECTDIR}/Tarea_2_Mayor\ de\ 4.o \
+	${OBJECTDIR}/Tareas/Tarea_01.o \
+	${OBJECTDIR}/Tareas/Tarea_02_Mayor\ de\ 3.o \
+	${OBJECTDIR}/Tareas/Tarea_02_Mayor\ de\ 4.o \
 	${OBJECTDIR}/main.o
 
 
@@ -77,22 +77,22 @@ ${OBJECTDIR}/Estructuras/While.o: Estructuras/While.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Estructuras/While.o Estructuras/While.c
 
-${OBJECTDIR}/Tarea_1.o: Tarea_1.c
-	${MKDIR} -p ${OBJECTDIR}
+${OBJECTDIR}/Tareas/Tarea_01.o: Tareas/Tarea_01.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea_1.o Tarea_1.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Tarea_01.o Tareas/Tarea_01.c
 
-.NO_PARALLEL:${OBJECTDIR}/Tarea_2_Mayor\ de\ 3.o
-${OBJECTDIR}/Tarea_2_Mayor\ de\ 3.o: Tarea_2_Mayor\ de\ 3.c
-	${MKDIR} -p ${OBJECTDIR}
+.NO_PARALLEL:${OBJECTDIR}/Tareas/Tarea_02_Mayor\ de\ 3.o
+${OBJECTDIR}/Tareas/Tarea_02_Mayor\ de\ 3.o: Tareas/Tarea_02_Mayor\ de\ 3.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea_2_Mayor\ de\ 3.o Tarea_2_Mayor\ de\ 3.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Tarea_02_Mayor\ de\ 3.o Tareas/Tarea_02_Mayor\ de\ 3.c
 
-.NO_PARALLEL:${OBJECTDIR}/Tarea_2_Mayor\ de\ 4.o
-${OBJECTDIR}/Tarea_2_Mayor\ de\ 4.o: Tarea_2_Mayor\ de\ 4.c
-	${MKDIR} -p ${OBJECTDIR}
+.NO_PARALLEL:${OBJECTDIR}/Tareas/Tarea_02_Mayor\ de\ 4.o
+${OBJECTDIR}/Tareas/Tarea_02_Mayor\ de\ 4.o: Tareas/Tarea_02_Mayor\ de\ 4.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea_2_Mayor\ de\ 4.o Tarea_2_Mayor\ de\ 4.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Tarea_02_Mayor\ de\ 4.o Tareas/Tarea_02_Mayor\ de\ 4.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
