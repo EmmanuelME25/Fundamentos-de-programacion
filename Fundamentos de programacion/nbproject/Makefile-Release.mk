@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Estructuras/If.o \
 	${OBJECTDIR}/Estructuras/While.o \
 	${OBJECTDIR}/Tareas/Fibonacci.o \
+	${OBJECTDIR}/Tareas/Tablas.o \
 	${OBJECTDIR}/Tareas/Tarea_01.o \
 	${OBJECTDIR}/Tareas/Tarea_02_Mayor\ de\ 3.o \
 	${OBJECTDIR}/Tareas/Tarea_02_Mayor\ de\ 4.o \
@@ -82,6 +83,11 @@ ${OBJECTDIR}/Tareas/Fibonacci.o: Tareas/Fibonacci.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Fibonacci.o Tareas/Fibonacci.c
+
+${OBJECTDIR}/Tareas/Tablas.o: Tareas/Tablas.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Tablas.o Tareas/Tablas.c
 
 ${OBJECTDIR}/Tareas/Tarea_01.o: Tareas/Tarea_01.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas

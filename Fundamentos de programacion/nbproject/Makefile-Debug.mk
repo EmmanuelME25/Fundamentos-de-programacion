@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Tareas/Fibonacci.o
+	${OBJECTDIR}/Tareas/Tablas.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion.exe: ${OB
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/Tareas/Fibonacci.o: Tareas/Fibonacci.c
+${OBJECTDIR}/Tareas/Tablas.o: Tareas/Tablas.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Fibonacci.o Tareas/Fibonacci.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Tablas.o Tareas/Tablas.c
 
 # Subprojects
 .build-subprojects:
