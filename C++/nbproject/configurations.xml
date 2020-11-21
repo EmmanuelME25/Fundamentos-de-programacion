@@ -12,18 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>Tareas/Array tamaño n.c</itemPath>
-      <itemPath>Estructuras/Array.c</itemPath>
-      <itemPath>Tareas/Arreglo, fibonacci recorrido.c</itemPath>
-      <itemPath>Tareas/Fibonacci.c</itemPath>
-      <itemPath>Estructuras/If.c</itemPath>
-      <itemPath>Tareas/Tabla_con_for.c</itemPath>
-      <itemPath>Tareas/Tablas.c</itemPath>
-      <itemPath>Tareas/Tarea_01.c</itemPath>
-      <itemPath>Tareas/Tarea_02_Mayor de 3.c</itemPath>
-      <itemPath>Tareas/Tarea_02_Mayor de 4.c</itemPath>
-      <itemPath>Estructuras/While.c</itemPath>
-      <itemPath>main.c</itemPath>
+      <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -46,6 +35,9 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
       </compileType>
     </conf>
     <conf name="Release" type="1">
@@ -60,6 +52,7 @@
         </cTool>
         <ccTool>
           <developmentMode>5</developmentMode>
+          <standard>8</standard>
         </ccTool>
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>
@@ -68,32 +61,7 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="Estructuras/Array.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Estructuras/If.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Estructuras/While.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Tareas/Array tamaño n.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Tareas/Arreglo, fibonacci recorrido.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
-      </item>
-      <item path="Tareas/Fibonacci.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Tareas/Tabla_con_for.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Tareas/Tablas.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Tareas/Tarea_01.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Tareas/Tarea_02_Mayor de 3.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Tareas/Tarea_02_Mayor de 4.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="main.c" ex="false" tool="0" flavor2="0">
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>

@@ -35,8 +35,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Estructuras/Array.o \
 	${OBJECTDIR}/Estructuras/If.o \
 	${OBJECTDIR}/Estructuras/While.o \
+	${OBJECTDIR}/Tareas/Array\ tamaño\ n.o \
+	${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o \
 	${OBJECTDIR}/Tareas/Fibonacci.o \
 	${OBJECTDIR}/Tareas/Tabla_con_for.o \
 	${OBJECTDIR}/Tareas/Tablas.o \
@@ -70,6 +73,11 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion.exe: ${OB
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion ${OBJECTFILES} ${LDLIBSOPTIONS}
 
+${OBJECTDIR}/Estructuras/Array.o: Estructuras/Array.c
+	${MKDIR} -p ${OBJECTDIR}/Estructuras
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Estructuras/Array.o Estructuras/Array.c
+
 ${OBJECTDIR}/Estructuras/If.o: Estructuras/If.c
 	${MKDIR} -p ${OBJECTDIR}/Estructuras
 	${RM} "$@.d"
@@ -79,6 +87,18 @@ ${OBJECTDIR}/Estructuras/While.o: Estructuras/While.c
 	${MKDIR} -p ${OBJECTDIR}/Estructuras
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Estructuras/While.o Estructuras/While.c
+
+.NO_PARALLEL:${OBJECTDIR}/Tareas/Array\ tamaño\ n.o
+${OBJECTDIR}/Tareas/Array\ tamaño\ n.o: Tareas/Array\ tamaño\ n.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Array\ tamaño\ n.o Tareas/Array\ tamaño\ n.c
+
+.NO_PARALLEL:${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o
+${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o: Tareas/Arreglo,\ fibonacci\ recorrido.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o Tareas/Arreglo,\ fibonacci\ recorrido.c
 
 ${OBJECTDIR}/Tareas/Fibonacci.o: Tareas/Fibonacci.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas
