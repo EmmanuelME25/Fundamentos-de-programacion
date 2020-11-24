@@ -40,7 +40,10 @@ OBJECTFILES= \
 	${OBJECTDIR}/Estructuras/While.o \
 	${OBJECTDIR}/Tareas/Array\ tamaño\ n.o \
 	${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o \
+	${OBJECTDIR}/Tareas/Burbuja.o \
 	${OBJECTDIR}/Tareas/Fibonacci.o \
+	${OBJECTDIR}/Tareas/Mínimo\ y\ máximo\ arreglo.o \
+	${OBJECTDIR}/Tareas/Promedio\ en\ arreglo.o \
 	${OBJECTDIR}/Tareas/Tabla_con_for.o \
 	${OBJECTDIR}/Tareas/Tablas.o \
 	${OBJECTDIR}/Tareas/Tarea_01.o \
@@ -100,10 +103,27 @@ ${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o: Tareas/Arreglo,\ fibonacci
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o Tareas/Arreglo,\ fibonacci\ recorrido.c
 
+${OBJECTDIR}/Tareas/Burbuja.o: Tareas/Burbuja.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Burbuja.o Tareas/Burbuja.c
+
 ${OBJECTDIR}/Tareas/Fibonacci.o: Tareas/Fibonacci.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Fibonacci.o Tareas/Fibonacci.c
+
+.NO_PARALLEL:${OBJECTDIR}/Tareas/Mínimo\ y\ máximo\ arreglo.o
+${OBJECTDIR}/Tareas/Mínimo\ y\ máximo\ arreglo.o: Tareas/Mínimo\ y\ máximo\ arreglo.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Mínimo\ y\ máximo\ arreglo.o Tareas/Mínimo\ y\ máximo\ arreglo.c
+
+.NO_PARALLEL:${OBJECTDIR}/Tareas/Promedio\ en\ arreglo.o
+${OBJECTDIR}/Tareas/Promedio\ en\ arreglo.o: Tareas/Promedio\ en\ arreglo.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Promedio\ en\ arreglo.o Tareas/Promedio\ en\ arreglo.c
 
 ${OBJECTDIR}/Tareas/Tabla_con_for.o: Tareas/Tabla_con_for.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas
