@@ -40,6 +40,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Estructuras/While.o \
 	${OBJECTDIR}/Tareas/Array\ tamaño\ n.o \
 	${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o \
+	${OBJECTDIR}/Tareas/Burbuja\ optimizado.o \
 	${OBJECTDIR}/Tareas/Burbuja.o \
 	${OBJECTDIR}/Tareas/Fibonacci.o \
 	${OBJECTDIR}/Tareas/Mínimo\ y\ máximo\ arreglo.o \
@@ -102,6 +103,12 @@ ${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o: Tareas/Arreglo,\ fibonacci
 	${MKDIR} -p ${OBJECTDIR}/Tareas
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o Tareas/Arreglo,\ fibonacci\ recorrido.c
+
+.NO_PARALLEL:${OBJECTDIR}/Tareas/Burbuja\ optimizado.o
+${OBJECTDIR}/Tareas/Burbuja\ optimizado.o: Tareas/Burbuja\ optimizado.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Burbuja\ optimizado.o Tareas/Burbuja\ optimizado.c
 
 ${OBJECTDIR}/Tareas/Burbuja.o: Tareas/Burbuja.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas

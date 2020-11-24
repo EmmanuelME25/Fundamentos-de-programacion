@@ -34,8 +34,7 @@ include Makefile
 OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
-OBJECTFILES= \
-	${OBJECTDIR}/Tareas/Burbuja.o
+OBJECTFILES=
 
 
 # C Compiler Flags
@@ -61,11 +60,6 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion ${OBJECTFILES} ${LDLIBSOPTIONS}
-
-${OBJECTDIR}/Tareas/Burbuja.o: Tareas/Burbuja.c
-	${MKDIR} -p ${OBJECTDIR}/Tareas
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Burbuja.o Tareas/Burbuja.c
 
 # Subprojects
 .build-subprojects:
