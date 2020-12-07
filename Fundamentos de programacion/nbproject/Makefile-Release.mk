@@ -44,6 +44,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Tareas/Burbuja.o \
 	${OBJECTDIR}/Tareas/Fibonacci.o \
 	${OBJECTDIR}/Tareas/Funciones.o \
+	${OBJECTDIR}/Tareas/Menu\ de\ funciones.o \
 	${OBJECTDIR}/Tareas/Mínimo\ y\ máximo\ arreglo.o \
 	${OBJECTDIR}/Tareas/Promedio\ en\ arreglo.o \
 	${OBJECTDIR}/Tareas/Tabla_con_for.o \
@@ -125,6 +126,12 @@ ${OBJECTDIR}/Tareas/Funciones.o: Tareas/Funciones.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Funciones.o Tareas/Funciones.c
+
+.NO_PARALLEL:${OBJECTDIR}/Tareas/Menu\ de\ funciones.o
+${OBJECTDIR}/Tareas/Menu\ de\ funciones.o: Tareas/Menu\ de\ funciones.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Menu\ de\ funciones.o Tareas/Menu\ de\ funciones.c
 
 .NO_PARALLEL:${OBJECTDIR}/Tareas/Mínimo\ y\ máximo\ arreglo.o
 ${OBJECTDIR}/Tareas/Mínimo\ y\ máximo\ arreglo.o: Tareas/Mínimo\ y\ máximo\ arreglo.c

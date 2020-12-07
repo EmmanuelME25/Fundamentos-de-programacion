@@ -20,6 +20,7 @@
       <itemPath>Tareas/Fibonacci.c</itemPath>
       <itemPath>Tareas/Funciones.c</itemPath>
       <itemPath>Estructuras/If.c</itemPath>
+      <itemPath>Tareas/Menu de funciones.c</itemPath>
       <itemPath>Tareas/Mínimo y máximo arreglo.c</itemPath>
       <itemPath>Tareas/Promedio en arreglo.c</itemPath>
       <itemPath>Tareas/Tabla_con_for.c</itemPath>
@@ -52,7 +53,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Tareas/Funciones.c" ex="false" tool="0" flavor2="0">
+      <item path="Tareas/Menu de funciones.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -95,6 +96,8 @@
       <item path="Tareas/Fibonacci.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tareas/Funciones.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tareas/Menu de funciones.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tareas/Mínimo y máximo arreglo.c" ex="false" tool="0" flavor2="0">
       </item>
