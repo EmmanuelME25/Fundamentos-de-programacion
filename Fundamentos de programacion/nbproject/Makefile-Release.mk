@@ -39,10 +39,15 @@ OBJECTFILES= \
 	${OBJECTDIR}/Estructuras/If.o \
 	${OBJECTDIR}/Estructuras/While.o \
 	${OBJECTDIR}/Problemario_01/Aprobado-reprobado.o \
+	${OBJECTDIR}/Problemario_01/Arreglo\ de\ direcciones.o \
 	${OBJECTDIR}/Problemario_01/Cadena\ de\ caracteres.o \
+	${OBJECTDIR}/Problemario_01/Cambio\ de\ valor.o \
 	${OBJECTDIR}/Problemario_01/Casilla\ de\ ajedrez.o \
 	${OBJECTDIR}/Problemario_01/Contador\ de\ positivos.o \
+	${OBJECTDIR}/Problemario_01/Dirección\ de\ variable.o \
 	${OBJECTDIR}/Problemario_01/Factorial.o \
+	${OBJECTDIR}/Problemario_01/Fibonacci\ con\ funciones.o \
+	${OBJECTDIR}/Problemario_01/Funciones\ punteros.o \
 	${OBJECTDIR}/Problemario_01/Grados\ a\ radianes.o \
 	${OBJECTDIR}/Problemario_01/Llenar\ un\ arreglo.o \
 	${OBJECTDIR}/Problemario_01/Llenar\ una\ matriz.o \
@@ -55,6 +60,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Problemario_01/Operación\ faltante.o \
 	${OBJECTDIR}/Problemario_01/Operar\ con\ arreglos.o \
 	${OBJECTDIR}/Problemario_01/Ordenar\ números.o \
+	${OBJECTDIR}/Problemario_01/Punteros\ de\ punteros.o \
 	${OBJECTDIR}/Problemario_01/Sumatoria\ de\ la\ sumatoria.o \
 	${OBJECTDIR}/Problemario_01/Triángulos.o \
 	${OBJECTDIR}/Problemario_01/mcd.o \
@@ -119,11 +125,23 @@ ${OBJECTDIR}/Problemario_01/Aprobado-reprobado.o: Problemario_01/Aprobado-reprob
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Aprobado-reprobado.o Problemario_01/Aprobado-reprobado.c
 
+.NO_PARALLEL:${OBJECTDIR}/Problemario_01/Arreglo\ de\ direcciones.o
+${OBJECTDIR}/Problemario_01/Arreglo\ de\ direcciones.o: Problemario_01/Arreglo\ de\ direcciones.c
+	${MKDIR} -p ${OBJECTDIR}/Problemario_01
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Arreglo\ de\ direcciones.o Problemario_01/Arreglo\ de\ direcciones.c
+
 .NO_PARALLEL:${OBJECTDIR}/Problemario_01/Cadena\ de\ caracteres.o
 ${OBJECTDIR}/Problemario_01/Cadena\ de\ caracteres.o: Problemario_01/Cadena\ de\ caracteres.c
 	${MKDIR} -p ${OBJECTDIR}/Problemario_01
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Cadena\ de\ caracteres.o Problemario_01/Cadena\ de\ caracteres.c
+
+.NO_PARALLEL:${OBJECTDIR}/Problemario_01/Cambio\ de\ valor.o
+${OBJECTDIR}/Problemario_01/Cambio\ de\ valor.o: Problemario_01/Cambio\ de\ valor.c
+	${MKDIR} -p ${OBJECTDIR}/Problemario_01
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Cambio\ de\ valor.o Problemario_01/Cambio\ de\ valor.c
 
 .NO_PARALLEL:${OBJECTDIR}/Problemario_01/Casilla\ de\ ajedrez.o
 ${OBJECTDIR}/Problemario_01/Casilla\ de\ ajedrez.o: Problemario_01/Casilla\ de\ ajedrez.c
@@ -137,10 +155,28 @@ ${OBJECTDIR}/Problemario_01/Contador\ de\ positivos.o: Problemario_01/Contador\ 
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Contador\ de\ positivos.o Problemario_01/Contador\ de\ positivos.c
 
+.NO_PARALLEL:${OBJECTDIR}/Problemario_01/Dirección\ de\ variable.o
+${OBJECTDIR}/Problemario_01/Dirección\ de\ variable.o: Problemario_01/Dirección\ de\ variable.c
+	${MKDIR} -p ${OBJECTDIR}/Problemario_01
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Dirección\ de\ variable.o Problemario_01/Dirección\ de\ variable.c
+
 ${OBJECTDIR}/Problemario_01/Factorial.o: Problemario_01/Factorial.c
 	${MKDIR} -p ${OBJECTDIR}/Problemario_01
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Factorial.o Problemario_01/Factorial.c
+
+.NO_PARALLEL:${OBJECTDIR}/Problemario_01/Fibonacci\ con\ funciones.o
+${OBJECTDIR}/Problemario_01/Fibonacci\ con\ funciones.o: Problemario_01/Fibonacci\ con\ funciones.c
+	${MKDIR} -p ${OBJECTDIR}/Problemario_01
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Fibonacci\ con\ funciones.o Problemario_01/Fibonacci\ con\ funciones.c
+
+.NO_PARALLEL:${OBJECTDIR}/Problemario_01/Funciones\ punteros.o
+${OBJECTDIR}/Problemario_01/Funciones\ punteros.o: Problemario_01/Funciones\ punteros.c
+	${MKDIR} -p ${OBJECTDIR}/Problemario_01
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Funciones\ punteros.o Problemario_01/Funciones\ punteros.c
 
 .NO_PARALLEL:${OBJECTDIR}/Problemario_01/Grados\ a\ radianes.o
 ${OBJECTDIR}/Problemario_01/Grados\ a\ radianes.o: Problemario_01/Grados\ a\ radianes.c
@@ -212,6 +248,12 @@ ${OBJECTDIR}/Problemario_01/Ordenar\ números.o: Problemario_01/Ordenar\ número
 	${MKDIR} -p ${OBJECTDIR}/Problemario_01
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Ordenar\ números.o Problemario_01/Ordenar\ números.c
+
+.NO_PARALLEL:${OBJECTDIR}/Problemario_01/Punteros\ de\ punteros.o
+${OBJECTDIR}/Problemario_01/Punteros\ de\ punteros.o: Problemario_01/Punteros\ de\ punteros.c
+	${MKDIR} -p ${OBJECTDIR}/Problemario_01
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Punteros\ de\ punteros.o Problemario_01/Punteros\ de\ punteros.c
 
 .NO_PARALLEL:${OBJECTDIR}/Problemario_01/Sumatoria\ de\ la\ sumatoria.o
 ${OBJECTDIR}/Problemario_01/Sumatoria\ de\ la\ sumatoria.o: Problemario_01/Sumatoria\ de\ la\ sumatoria.c

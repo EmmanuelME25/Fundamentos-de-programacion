@@ -5,10 +5,10 @@
  */
 
 /* 
- * File:   Grados a radianes.c
+ * File:   Punteros de punteros.c
  * Author: Emmanuel
  *
- * Created on 10 de enero de 2021, 08:10 PM
+ * Created on 10 de enero de 2021, 10:47 PM
  */
 
 #include <stdio.h>
@@ -17,20 +17,17 @@
 /*
  * 
  */
-double trans(double);
-
 int main(int argc, char** argv) {
 
-    double a;
+    int x=5;
+    int *a;
+    int **b;
     
-    scanf("%lf",&a);
-    printf("%lf",trans(a));
+    a = &x;
+    printf("%p \n",a);
+    b=&a;
+    printf("%p",b);
     
     return (EXIT_SUCCESS);
 }
 
-double trans(double x)
-{
- return x*3.1416/180;   
-
-}

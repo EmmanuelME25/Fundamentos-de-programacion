@@ -5,10 +5,10 @@
  */
 
 /* 
- * File:   Grados a radianes.c
+ * File:   Cambio de valor.c
  * Author: Emmanuel
  *
- * Created on 10 de enero de 2021, 08:10 PM
+ * Created on 10 de enero de 2021, 09:48 PM
  */
 
 #include <stdio.h>
@@ -17,20 +17,15 @@
 /*
  * 
  */
-double trans(double);
-
 int main(int argc, char** argv) {
 
-    double a;
-    
-    scanf("%lf",&a);
-    printf("%lf",trans(a));
-    
+   int x = 4;
+   int *a=60;
+   
+   x = a;
+   
+   printf("%d",a);
+          
     return (EXIT_SUCCESS);
 }
 
-double trans(double x)
-{
- return x*3.1416/180;   
-
-}

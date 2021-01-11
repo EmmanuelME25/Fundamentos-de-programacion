@@ -15,14 +15,19 @@
       <itemPath>Problemario_01/Aprobado-reprobado.c</itemPath>
       <itemPath>Tareas/Array tamaño n.c</itemPath>
       <itemPath>Estructuras/Array.c</itemPath>
+      <itemPath>Problemario_01/Arreglo de direcciones.c</itemPath>
       <itemPath>Tareas/Arreglo, fibonacci recorrido.c</itemPath>
       <itemPath>Tareas/Burbuja optimizado.c</itemPath>
       <itemPath>Tareas/Burbuja.c</itemPath>
       <itemPath>Problemario_01/Cadena de caracteres.c</itemPath>
+      <itemPath>Problemario_01/Cambio de valor.c</itemPath>
       <itemPath>Problemario_01/Casilla de ajedrez.c</itemPath>
       <itemPath>Problemario_01/Contador de positivos.c</itemPath>
+      <itemPath>Problemario_01/Dirección de variable.c</itemPath>
       <itemPath>Problemario_01/Factorial.c</itemPath>
+      <itemPath>Problemario_01/Fibonacci con funciones.c</itemPath>
       <itemPath>Tareas/Fibonacci.c</itemPath>
+      <itemPath>Problemario_01/Funciones punteros.c</itemPath>
       <itemPath>Tareas/Funciones.c</itemPath>
       <itemPath>Problemario_01/Grados a radianes.c</itemPath>
       <itemPath>Estructuras/If.c</itemPath>
@@ -40,6 +45,7 @@
       <itemPath>Problemario_01/Operar con arreglos.c</itemPath>
       <itemPath>Problemario_01/Ordenar números.c</itemPath>
       <itemPath>Tareas/Promedio en arreglo.c</itemPath>
+      <itemPath>Problemario_01/Punteros de punteros.c</itemPath>
       <itemPath>Problemario_01/Sumatoria de la sumatoria.c</itemPath>
       <itemPath>Tareas/Tabla_con_for.c</itemPath>
       <itemPath>Tareas/Tablas.c</itemPath>
@@ -73,7 +79,10 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Problemario_01/Grados a radianes.c" ex="false" tool="0" flavor2="0">
+      <item path="Problemario_01/Funciones punteros.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -107,10 +116,17 @@
             tool="0"
             flavor2="0">
       </item>
+      <item path="Problemario_01/Arreglo de direcciones.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="Problemario_01/Cadena de caracteres.c"
             ex="false"
             tool="0"
             flavor2="0">
+      </item>
+      <item path="Problemario_01/Cambio de valor.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Problemario_01/Casilla de ajedrez.c"
             ex="false"
@@ -122,7 +138,22 @@
             tool="0"
             flavor2="0">
       </item>
+      <item path="Problemario_01/Dirección de variable.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="Problemario_01/Factorial.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Problemario_01/Fibonacci con funciones.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="Problemario_01/Funciones punteros.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="Problemario_01/Grados a radianes.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -165,6 +196,11 @@
             flavor2="0">
       </item>
       <item path="Problemario_01/Ordenar números.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Problemario_01/Punteros de punteros.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="Problemario_01/Sumatoria de la sumatoria.c"
             ex="false"

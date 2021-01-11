@@ -5,10 +5,10 @@
  */
 
 /* 
- * File:   Grados a radianes.c
+ * File:   Arreglo de direcciones.c
  * Author: Emmanuel
  *
- * Created on 10 de enero de 2021, 08:10 PM
+ * Created on 10 de enero de 2021, 10:37 PM
  */
 
 #include <stdio.h>
@@ -17,20 +17,28 @@
 /*
  * 
  */
-double trans(double);
-
 int main(int argc, char** argv) {
 
-    double a;
+    int n;
+    scanf("%d",&n);
+    int a[n];
+    int *p[n];
     
-    scanf("%lf",&a);
-    printf("%lf",trans(a));
+    for(int i=0;i<=n-1;i++)
+    {
+        a[i]=i;
+        p[i]= &a[i];
+    
+    }
+    
+    for(int i=0; i<=n-1;i++)
+    {
+        printf("%p \n", p[i]);
+    
+    }
+    
+    
     
     return (EXIT_SUCCESS);
 }
 
-double trans(double x)
-{
- return x*3.1416/180;   
-
-}

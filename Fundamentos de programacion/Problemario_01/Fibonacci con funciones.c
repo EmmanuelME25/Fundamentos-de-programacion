@@ -5,10 +5,10 @@
  */
 
 /* 
- * File:   Grados a radianes.c
+ * File:   Fibonacci con funciones.c
  * Author: Emmanuel
  *
- * Created on 10 de enero de 2021, 08:10 PM
+ * Created on 10 de enero de 2021, 08:22 PM
  */
 
 #include <stdio.h>
@@ -17,20 +17,26 @@
 /*
  * 
  */
-double trans(double);
-
+int fib(int);
 int main(int argc, char** argv) {
 
-    double a;
-    
-    scanf("%lf",&a);
-    printf("%lf",trans(a));
+    int n;
+    scanf("%d",&n);
+    fib(n);
     
     return (EXIT_SUCCESS);
 }
 
-double trans(double x)
+int fib(int a)
 {
- return x*3.1416/180;   
-
+    int x=0,y=1,aux=0,i=0;
+    while(i<=a-1)
+    {
+        printf("%d \n",x) ;
+        aux=x+y;
+        x=y;
+        y=aux;
+    
+        i+=1;
+    }
 }
