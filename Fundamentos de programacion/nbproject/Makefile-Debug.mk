@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Tareas/Menu\ de\ funciones.o
+	${OBJECTDIR}/Problemario_01/Grados\ a\ radianes.o
 
 
 # C Compiler Flags
@@ -62,11 +62,11 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion.exe: ${OB
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-.NO_PARALLEL:${OBJECTDIR}/Tareas/Menu\ de\ funciones.o
-${OBJECTDIR}/Tareas/Menu\ de\ funciones.o: Tareas/Menu\ de\ funciones.c
-	${MKDIR} -p ${OBJECTDIR}/Tareas
+.NO_PARALLEL:${OBJECTDIR}/Problemario_01/Grados\ a\ radianes.o
+${OBJECTDIR}/Problemario_01/Grados\ a\ radianes.o: Problemario_01/Grados\ a\ radianes.c
+	${MKDIR} -p ${OBJECTDIR}/Problemario_01
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Menu\ de\ funciones.o Tareas/Menu\ de\ funciones.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Problemario_01/Grados\ a\ radianes.o Problemario_01/Grados\ a\ radianes.c
 
 # Subprojects
 .build-subprojects:

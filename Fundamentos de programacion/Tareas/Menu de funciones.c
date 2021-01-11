@@ -62,7 +62,7 @@ void fc ()
         printf("ingrese grados a convertir: ");
     int y=0;
     scanf("%lf",&y);
-    printf("lf \n",(y-32)/1.8);
+    printf("%lf \n",(y-32)/1.8);
     system("cmd /c pause");
 }
 void ck ()
