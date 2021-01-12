@@ -12,9 +12,11 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Tareas/Análisis de cadenas.c</itemPath>
       <itemPath>Problemario_01/Aprobado-reprobado.c</itemPath>
       <itemPath>Tareas/Array tamaño n.c</itemPath>
       <itemPath>Estructuras/Array.c</itemPath>
+      <itemPath>Tareas/Arrays y cadenas.c</itemPath>
       <itemPath>Problemario_01/Arreglo de direcciones.c</itemPath>
       <itemPath>Tareas/Arreglo, fibonacci recorrido.c</itemPath>
       <itemPath>Tareas/Burbuja optimizado.c</itemPath>
@@ -206,7 +208,11 @@
       </item>
       <item path="Problemario_01/mcd.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Tareas/Análisis de cadenas.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Tareas/Array tamaño n.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tareas/Arrays y cadenas.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tareas/Arreglo, fibonacci recorrido.c"
             ex="false"
