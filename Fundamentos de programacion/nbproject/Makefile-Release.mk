@@ -70,6 +70,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o \
 	${OBJECTDIR}/Tareas/Burbuja\ optimizado.o \
 	${OBJECTDIR}/Tareas/Burbuja.o \
+	${OBJECTDIR}/Tareas/Cabecera.o \
 	${OBJECTDIR}/Tareas/Fibonacci.o \
 	${OBJECTDIR}/Tareas/Funciones.o \
 	${OBJECTDIR}/Tareas/Menu\ de\ funciones.o \
@@ -307,6 +308,11 @@ ${OBJECTDIR}/Tareas/Burbuja.o: Tareas/Burbuja.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Burbuja.o Tareas/Burbuja.c
+
+${OBJECTDIR}/Tareas/Cabecera.o: Tareas/Cabecera.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Cabecera.o Tareas/Cabecera.c
 
 ${OBJECTDIR}/Tareas/Fibonacci.o: Tareas/Fibonacci.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas

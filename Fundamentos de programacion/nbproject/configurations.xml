@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Tareas/fun.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -21,6 +22,7 @@
       <itemPath>Tareas/Arreglo, fibonacci recorrido.c</itemPath>
       <itemPath>Tareas/Burbuja optimizado.c</itemPath>
       <itemPath>Tareas/Burbuja.c</itemPath>
+      <itemPath>Tareas/Cabecera.c</itemPath>
       <itemPath>Problemario_01/Cadena de caracteres.c</itemPath>
       <itemPath>Problemario_01/Cambio de valor.c</itemPath>
       <itemPath>Problemario_01/Casilla de ajedrez.c</itemPath>
@@ -81,6 +83,10 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Tareas/Cabecera.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tareas/fun.h" ex="false" tool="3" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -223,6 +229,8 @@
       </item>
       <item path="Tareas/Burbuja.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Tareas/Cabecera.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Tareas/Fibonacci.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tareas/Funciones.c" ex="false" tool="0" flavor2="0">
@@ -242,6 +250,8 @@
       <item path="Tareas/Tarea_02_Mayor de 3.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tareas/Tarea_02_Mayor de 4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tareas/fun.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
