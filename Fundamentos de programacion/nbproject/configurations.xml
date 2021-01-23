@@ -15,6 +15,7 @@
                    projectFiles="true">
       <itemPath>Tareas/Análisis de cadenas.c</itemPath>
       <itemPath>Problemario_01/Aprobado-reprobado.c</itemPath>
+      <itemPath>Tareas/Archivos.c</itemPath>
       <itemPath>Tareas/Array tamaño n.c</itemPath>
       <itemPath>Estructuras/Array.c</itemPath>
       <itemPath>Tareas/Arrays y cadenas.c</itemPath>
@@ -83,9 +84,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Tareas/Cabecera.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Tareas/fun.h" ex="false" tool="3" flavor2="0">
+      <item path="Tareas/Archivos.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -215,6 +214,8 @@
       <item path="Problemario_01/mcd.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tareas/Análisis de cadenas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tareas/Archivos.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tareas/Array tamaño n.c" ex="false" tool="0" flavor2="0">
       </item>

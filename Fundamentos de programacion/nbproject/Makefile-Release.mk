@@ -65,6 +65,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Problemario_01/Triángulos.o \
 	${OBJECTDIR}/Problemario_01/mcd.o \
 	${OBJECTDIR}/Tareas/Análisis\ de\ cadenas.o \
+	${OBJECTDIR}/Tareas/Archivos.o \
 	${OBJECTDIR}/Tareas/Array\ tamaño\ n.o \
 	${OBJECTDIR}/Tareas/Arrays\ y\ cadenas.o \
 	${OBJECTDIR}/Tareas/Arreglo,\ fibonacci\ recorrido.o \
@@ -279,6 +280,11 @@ ${OBJECTDIR}/Tareas/Análisis\ de\ cadenas.o: Tareas/Análisis\ de\ cadenas.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Análisis\ de\ cadenas.o Tareas/Análisis\ de\ cadenas.c
+
+${OBJECTDIR}/Tareas/Archivos.o: Tareas/Archivos.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Archivos.o Tareas/Archivos.c
 
 .NO_PARALLEL:${OBJECTDIR}/Tareas/Array\ tamaño\ n.o
 ${OBJECTDIR}/Tareas/Array\ tamaño\ n.o: Tareas/Array\ tamaño\ n.c
