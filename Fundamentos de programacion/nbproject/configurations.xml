@@ -51,6 +51,7 @@
       <itemPath>Problemario_01/Ordenar números.c</itemPath>
       <itemPath>Tareas/Promedio en arreglo.c</itemPath>
       <itemPath>Problemario_01/Punteros de punteros.c</itemPath>
+      <itemPath>Tareas/Recursividad.c</itemPath>
       <itemPath>Problemario_01/Sumatoria de la sumatoria.c</itemPath>
       <itemPath>Tareas/Tabla_con_for.c</itemPath>
       <itemPath>Tareas/Tablas.c</itemPath>
@@ -84,7 +85,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Tareas/Archivos.c" ex="false" tool="0" flavor2="0">
+      <item path="Tareas/Recursividad.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -241,6 +242,8 @@
       <item path="Tareas/Mínimo y máximo arreglo.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tareas/Promedio en arreglo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tareas/Recursividad.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tareas/Tabla_con_for.c" ex="false" tool="0" flavor2="0">
       </item>

@@ -77,6 +77,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Tareas/Menu\ de\ funciones.o \
 	${OBJECTDIR}/Tareas/Mínimo\ y\ máximo\ arreglo.o \
 	${OBJECTDIR}/Tareas/Promedio\ en\ arreglo.o \
+	${OBJECTDIR}/Tareas/Recursividad.o \
 	${OBJECTDIR}/Tareas/Tabla_con_for.o \
 	${OBJECTDIR}/Tareas/Tablas.o \
 	${OBJECTDIR}/Tareas/Tarea_01.o \
@@ -347,6 +348,11 @@ ${OBJECTDIR}/Tareas/Promedio\ en\ arreglo.o: Tareas/Promedio\ en\ arreglo.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Promedio\ en\ arreglo.o Tareas/Promedio\ en\ arreglo.c
+
+${OBJECTDIR}/Tareas/Recursividad.o: Tareas/Recursividad.c
+	${MKDIR} -p ${OBJECTDIR}/Tareas
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tareas/Recursividad.o Tareas/Recursividad.c
 
 ${OBJECTDIR}/Tareas/Tabla_con_for.o: Tareas/Tabla_con_for.c
 	${MKDIR} -p ${OBJECTDIR}/Tareas
